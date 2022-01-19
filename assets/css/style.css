@@ -60,3 +60,21 @@ body{
 .card-text{
     font-weight: 300;
 }
+
+/* Footer */
+
+footer{
+    background-color: #142850;
+    padding-top: .5rem;
+    padding-bottom: .3rem;
+    width: 100vw;
+}
+
+footer img{
+    width: 7rem;
+}
+
+#footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
