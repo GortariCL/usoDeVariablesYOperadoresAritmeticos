@@ -28,7 +28,7 @@
 
 <body>
 
-    <!--Footer Start-->
+    <!--Header Start-->
     <header id="hero-section">
         <div class="container text-center ">
             <img src="./assets/img/logo-desafio-latam.png">
@@ -36,62 +36,74 @@
             <h1 id="titulo-principal" class="text-light">Uso de variables<br> y operadores aritméticos</h1>
         </div>
     </header>
-    <!--Footer End-->
+    <!--Header End-->
 
     <!--Calculos Start-->
     <section id="calculos" class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-12 col-md-12">
-                    <div id="card-op" class="card mx-auto text-light" style="width: 25rem;">
-                        <div class="card-body shadow">
-                            <h5 class="card-title text-center text-uppercase">Operaciones Matemáticas</h5>
-                            <hr class="hero-line mx-auto opacity-75 w-50 text-light">
-                            <p class="card-text">Aquí podrás obtener variados resultados (suma, resta,
-                                multiplicación, división y módulo) de dos números.
-                            </p>
-                            <button id="btn-mat" class="btn btn-outline-light">Calcular</button>
+                    <article>
+                        <div id="card-op" class="card mx-auto text-light" style="width: 25rem;">
+                            <div class="card-body shadow">
+                                <h5 class="card-title text-center text-uppercase">Operaciones Matemáticas</h5>
+                                <hr class="hero-line mx-auto opacity-75 w-50 text-light">
+                                <p class="card-text">Aquí podrás obtener variados resultados (suma, resta,
+                                    multiplicación, división y módulo) de dos números.
+                                </p>
+                                <button id="btn-mat" class="btn btn-outline-light" data-bs-toggle="tooltip" data-bs-placement="right"
+                                title="Haz click para operar">Calcular</button>
+                            </div>
                         </div>
-                    </div>
+                    </article>                    
                 </div>
                 <div class="col-lg-6 col-sm-12 col-md-12">
-                    <div id="card-op" class="card text-end text-light mx-auto" style="width: 25rem;">
+                    <article>
+                        <div id="card-op" class="card text-end text-light mx-auto" style="width: 25rem;">
                         <div class="card-body shadow">
                             <h5 class="card-title text-center text-uppercase">Conversión de Temperatura</h5>
                             <hr class="hero-line mx-auto opacity-75 w-50 text-light">
                             <p class="card-text">Aquí podrás realizar la conversión de temperatura
                                 de grados Celsius(°C) a grados Kelvin(°K) Farenheit(°F).
                             </p>
-                            <button id="btn-tem" class="btn btn-outline-light">Calcular</button>
+                            <button id="btn-tem" class="btn btn-outline-light" data-bs-toggle="tooltip" data-bs-placement="left"
+                            title="Haz click para operar">Calcular</button>
                         </div>
                     </div>
+                    </article>                    
                 </div>
             </div>
 
-            <div class="row py-3 mt-3">
+            <div class="row">
                 <div class="col-lg-6 col-sm-12 col-md-12 mx-auto">
-                    <div id="card-op" class="card mx-auto text-light" style="width: 25rem;">
-                        <div class="card-body shadow">
-                            <h5 class="card-title text-center text-uppercase">De días a años</h5>
-                            <hr class="hero-line mx-auto opacity-75 w-50 text-light">
-                            <p class="card-text">Aquí podrás ingresar la cantidad de días y se mostrará
-                                su equivalente en Años, Semanas y Días.
-                            </p>
-                            <button id="btn-date" class="btn btn-outline-light">Calcular</button>
+                    <article>
+                        <div id="card-op" class="card mx-auto text-light" style="width: 25rem;">
+                            <div class="card-body shadow">
+                                <h5 class="card-title text-center text-uppercase">De días a años</h5>
+                                <hr class="hero-line mx-auto opacity-75 w-50 text-light">
+                                <p class="card-text">Aquí podrás ingresar la cantidad de días y se mostrará
+                                    su equivalente en Años, Semanas y Días.
+                                </p>
+                                <button id="btn-date" class="btn btn-outline-light" data-bs-toggle="tooltip" data-bs-placement="right"
+                                title="Haz click para operar">Calcular</button>
+                            </div>
                         </div>
-                    </div>
+                    </article>                    
                 </div>
                 <div class="col-lg-6 col-sm-12 col-md-12">
-                    <div id="card-op" class="card text-end text-light mx-auto" style="width: 25rem;">
-                        <div class="card-body shadow">
-                            <h5 class="card-title text-center text-uppercase">Suma & Promedio</h5>
-                            <hr class="hero-line mx-auto opacity-75 w-50 text-light">
-                            <p class="card-text">Aquí podrás ingresar cinco números y obtendrás la suma de estos y su
-                                promedio.
-                            </p>
-                            <button id="btn-prom" class="btn btn-outline-light">Calcular</button>
+                    <article>
+                        <div id="card-op" class="card text-end text-light mx-auto" style="width: 25rem;">
+                            <div class="card-body shadow">
+                                <h5 class="card-title text-center text-uppercase">Suma & Promedio</h5>
+                                <hr class="hero-line mx-auto opacity-75 w-50 text-light">
+                                <p class="card-text">Aquí podrás ingresar cinco números y obtendrás la suma de estos y su
+                                    promedio.
+                                </p>
+                                <button id="btn-prom" class="btn btn-outline-light" data-bs-toggle="tooltip" data-bs-placement="left"
+                                title="Haz click para operar">Calcular</button>
+                            </div>
                         </div>
-                    </div>
+                    </article>                    
                 </div>
             </div>
         </div>
@@ -99,16 +111,16 @@
     <!--Calculos End-->
 
     <!--Diagrama de Flujo Start-->
-    <section id="dia-flujo" class="pb-5">
+    <section id="dia-flujo">
         <div class="container">
-            <div class="pb-3">
+            <div>
                 <h2 class="text-uppercase text-center text-light">diagrama de flujo</h2>
                 <hr class="hero-line mx-auto opacity-75 w-50 text-light">
             </div>
             <div class="row">
-                <div class="col-sm-4 col-12 mx-auto">
+                <div class="col-lg-4 col-12 mx-auto">
                     <article>
-                        <div class="card mx-auto shadow" style="width: 18rem;">
+                        <div id="card-dia-flujo" class="card mx-auto shadow" style="width: 18rem;">
                             <img src="./assets/img/card-1.png" class="card-img-top border" alt="suma-img">
                             <div class="card-body">
                                 <hr class="hero-line mx-auto opacity-75 w-50">
@@ -122,9 +134,9 @@
                         </div>
                     </article>
                 </div>
-                <div class="col-sm-4 col-12">
+                <div class="col-lg-4 col-12">
                     <article>
-                        <div class="card mx-auto shadow" style="width: 18rem;">
+                        <div id="card-dia-flujo" class="card mx-auto shadow" style="width: 18rem;">
                             <img src="./assets/img/card-2.png" class="card-img-top border" alt="resta-img">
                             <div class="card-body">
                                 <hr class="hero-line mx-auto opacity-75 w-50">
@@ -138,9 +150,9 @@
                         </div>
                     </article>
                 </div>
-                <div class="col-sm-4 col-12">
+                <div class="col-lg-4 col-12">
                     <article>
-                        <div class="card mx-auto shadow" style="width: 18rem;">
+                        <div id="card-dia-flujo" class="card mx-auto shadow" style="width: 18rem;">
                             <img src="./assets/img/card-3.png" class="card-img-top border" alt="suma-img">
                             <div class="card-body">
                                 <hr class="hero-line mx-auto opacity-75 w-50">
@@ -156,10 +168,10 @@
                 </div>
             </div>
 
-            <div class="row mt-5">
-                <div class="col-sm-6 col-12">
+            <div class="row">
+                <div class="col-lg-6 col-12">
                     <article>
-                        <div class="card mx-auto shadow" style="width: 18rem;">
+                        <div id="card-dia-flujo" class="card mx-auto shadow" style="width: 18rem;">
                             <img src="./assets/img/card-1.png" class="card-img-top border" alt="suma-img">
                             <div class="card-body">
                                 <hr class="hero-line mx-auto opacity-75 w-50">
@@ -173,9 +185,9 @@
                         </div>
                     </article>
                 </div>
-                <div class="col-sm-6 col-12">
+                <div class="col-lg-6 col-12">
                     <article>
-                        <div class="card mx-auto shadow" style="width: 18rem;">
+                        <div id="card-dia-flujo" class="card mx-auto shadow" style="width: 18rem;">
                             <img src="./assets/img/card-2.png" class="card-img-top border" alt="resta-img">
                             <div class="card-body">
                                 <hr class="hero-line mx-auto opacity-75 w-50">
@@ -195,116 +207,119 @@
     <!--Diagrama de Flujo End-->
 
     <!--Modal Start-->
-    <div class="modal fade" id="modalSuma" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title text-center text-uppercase" id="exampleModalLabel">Diagrama de flujo -
-                        algoritmo suma</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-center">
-                    <img id='modal-img' src="./assets/img/card-1.png">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="modalResta" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title text-center text-uppercase" id="exampleModalLabel">Diagrama de flujo -
-                        algoritmo resta</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-center">
-                    <img id='modal-img' src="./assets/img/card-2.png">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+    <section id="modal-mat">
+        <div class="modal fade" id="modalSuma" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center text-uppercase" id="exampleModalLabel">Diagrama de flujo -
+                            algoritmo suma</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img id='modal-img' src="./assets/img/card-1.png">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="modal fade" id="modalMulti" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title text-center text-uppercase" id="exampleModalLabel">Diagrama de flujo -
-                        algoritmo multiplicación</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-center">
-                    <img id='modal-img' src="./assets/img/card-3.png">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title text-center text-uppercase" id="exampleModalLabel">Diagrama de flujo -
-                        algoritmo división</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-center">
-                    <img id='modal-img' src="./assets/img/card-4.png">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <div class="modal fade" id="modalResta" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center text-uppercase" id="exampleModalLabel">Diagrama de flujo -
+                            algoritmo resta</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img id='modal-img' src="./assets/img/card-2.png">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="modal fade" id="modalMod" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title text-center text-uppercase" id="exampleModalLabel">Diagrama de flujo -
-                        algoritmo Módulo</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-center">
-                    <img id='modal-img-mod' src="./assets/img/card-5.png">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <div class="modal fade" id="modalMulti" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center text-uppercase" id="exampleModalLabel">Diagrama de flujo -
+                            algoritmo multiplicación</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img id='modal-img' src="./assets/img/card-3.png">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center text-uppercase" id="exampleModalLabel">Diagrama de flujo -
+                            algoritmo división</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img id='modal-img' src="./assets/img/card-4.png">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modalMod" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center text-uppercase" id="exampleModalLabel">Diagrama de flujo -
+                            algoritmo Módulo</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img id='modal-img-mod' src="./assets/img/card-5.png">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--Modal End-->
 
     <!--Footer Start-->
     <footer id="footer">
-        <div class="container">
+        <div class="container text-center align-self-center">
             <div class="row">
-                <div class="col-lg-6 col-12">
-                    <a href="https://www.desafiolatam.com"><img src="./assets/img/logo-desafio-latam.png"></a>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <a href="https://www.desafiolatam.com" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Ir a Desafío Latam"><img src="./assets/img/logo-desafio-latam.png"></a>
                 </div>
-                <div class="col-lg-6 col-12 text-light text-end mt-1">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-light">
                     <a href="httsp:www.github.com/GortariCL">
-                        <i class="fab fa-github-square fa-2x mx-2"></i>
+                        <i class="fab fa-github-square fa-2x mx-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Sígueme en GitHub"></i>
                     </a>
                     <a href="httsp:www.linkedin.com/GortariCL">
-                        <i class="fab fa-linkedin fa-2x mx-2"></i>
+                        <i class="fab fa-linkedin fa-2x mx-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Conéctemonos en Linkedin"></i>
                     </a>
                     <a href="httsp:www.twitter.com/GortariCL">
-                        <i class="fab fa-twitter-square fa-2x mx-2"></i>
+                        <i class="fab fa-twitter-square fa-2x mx-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Sígueme en Twitter"></i>
                     </a>
                     <a href="httsp:www.instagram.com/GortariCL" class="text-decoration-none">
-                        <i class="fab fa-instagram-square fa-2x mx-2"></i>
+                        <i class="fab fa-instagram-square fa-2x mx-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Sígueme en Instagram"></i>
                     </a>
                 </div>
             </div>

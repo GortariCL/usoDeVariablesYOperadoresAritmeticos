@@ -61,6 +61,15 @@ body{
     font-weight: 300;
 }
 
+/* Card Diagrama de Flujo */
+#dia-flujo{
+    padding-bottom: 3rem;
+}
+
+article{
+    padding-top: 2rem !important;
+}
+
 /* Modal */
 
 #modal-img{
@@ -84,7 +93,7 @@ footer{
 }
 
 footer img{
-    width: 7rem;
+    width: 6.5rem;
 }
 
 #footer a{
@@ -93,8 +102,75 @@ footer img{
 }
 
 @media (max-width: 768px) {
+    #calculos{
+        padding-top: .5rem !important;
+        padding-bottom: 3rem !important;
+        margin: 0px !important;
+    }
+    
     #card-op{
-        width: 16.5rem !important;
+        margin-top: 2rem !important;
+    }
 
+    #card-op{
+        width: 16rem !important;
+    }
+
+    #dia-flujo{
+        padding-bottom: 2rem !important;
+    }
+
+    #card-dia-flujo{
+        width: 16rem !important;
+    }
+    article{
+        padding-top: 2rem !important;
+    }
+    #modal-img{
+        width: 15rem;
+        object-fit: cover;
+    }
+    
+    #modal-img-mod{
+        width: 10rem;
+        height: 15rem;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 992px) {
+    #calculos{
+        padding-top: .5rem !important;
+        padding-bottom: 3rem !important;
+        margin: 0px !important;
+    }
+    
+    #card-op{
+        margin-top: 2rem !important;
+    }
+
+    #card-op{
+        width: 16rem !important;
+    }
+
+    #dia-flujo{
+        padding-bottom: 2rem !important;
+    }
+
+    #card-dia-flujo{
+        width: 16rem !important;
+    }
+    article{
+        padding-top: 2rem !important;
+    }
+    #modal-img{
+        width: 15rem;
+        object-fit: cover;
+    }
+    
+    #modal-img-mod{
+        width: 10rem;
+        height: 15rem;
+        object-fit: cover;
     }
 }
