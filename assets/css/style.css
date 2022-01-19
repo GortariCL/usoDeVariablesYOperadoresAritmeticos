@@ -102,6 +102,8 @@ footer img{
     text-decoration: none;
 }
 
+/* Media Queries */
+
 @media (max-width: 768px) {
     #calculos{
         padding-top: .5rem !important;

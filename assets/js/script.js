@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+    // Funcion suma
     $('#btn-mat').on('click', function suma() {
         let numeroUno = prompt("Ingrese el primer número: ", "1");
         let numeroDos = prompt("Ingrese el segundo número: ", "2");
@@ -13,6 +14,7 @@ $(document).ready(function () {
         alert('Los resultados son: \nSuma: ' + suma + '\nResta: ' + resta + '\nMultiplicación: ' + mult + '\nDivisión: ' + div + '\nModulo: ' + mod);
     });
 
+    // Funcion Convertir Temperatura
     $('#btn-tem').on('click', function temperatura() {
         let tempUser = prompt("Ingrese la temperatura sin la extención °C", "25");
         let kelvin = parseFloat(tempUser) + 279.15;
@@ -21,6 +23,7 @@ $(document).ready(function () {
         alert('La conversión corresponde a: \n· ' + kelvin + ' K\n· ' + farenheit + '° F');
     });
 
+    // Funcion Days to Year
     $('#btn-date').on('click', function date() {
         let cantDays = prompt("Ingrese la cantidad de días: ", "365");
         let PreYear = parseFloat(cantDays) / 365;
@@ -35,6 +38,7 @@ $(document).ready(function () {
         alert('Los días ingresados corresponden a: ' + year + ' años, ' + weeks + ' semanas y ' + days + ' días');
     });
 
+    //Funcion Suma y Promedio
     $('#btn-prom').on('click', function promedio() {
         let numUno = prompt("Ingrese el primer número: ", "1");
         let numDos = prompt("Ingrese el segundo número: ", "2");
@@ -48,6 +52,7 @@ $(document).ready(function () {
         alert('· La suma de los números es: ' + sumNums + '\n· Promedio de los números: ' + promedio);
     });
 
+    // Bootstrap Tooltips JS
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
