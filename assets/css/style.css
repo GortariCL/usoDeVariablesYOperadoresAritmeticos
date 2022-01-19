@@ -61,6 +61,19 @@ body{
     font-weight: 300;
 }
 
+/* Modal */
+
+#modal-img{
+    width: 28rem;
+    object-fit: cover;
+}
+
+#modal-img-mod{
+    width: 20rem;
+    height: 26rem;
+    object-fit: cover;
+}
+
 /* Footer */
 
 footer{
@@ -77,4 +90,11 @@ footer img{
 #footer a{
     color: #FFFFFF;
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    #card-op{
+        width: 16.5rem !important;
+
+    }
 }
